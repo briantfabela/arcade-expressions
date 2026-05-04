@@ -1,5 +1,5 @@
 // This implementation assumes that the lookup table has been added to map
-var decode_table = FeatureSetById($map, "19db67a01eb-layer-64"); // reference table
+var decode_table = FeatureSetById($map, PORTAL_ITEM); // reference table
 var output = [];
 
 function decode(pos, char) { // helper function for decoding each character
